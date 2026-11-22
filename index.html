@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BeautyLoop — natural skincare, refillable by design.">
+  <title>BeautyLoop | Your Glow. Your Loop.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="#home"><span>∞</span>BeautyLoop</a>
+  <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <nav class="nav">
+    <a class="active" href="#home">Homepage</a><a href="#products">Skincare products</a><a href="#refill">Refill system</a>
+    <a href="#plans">Subscription plans</a><a href="#account">My account</a><a href="#reviews">Product reviews and customer support</a><a href="#contact">Contact</a>
+  </nav>
+  <button class="bag">Bag <span id="bagCount">0</span></button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">Natural skincare · Refillable by design</p>
+    <h1>Your glow.<br>Your loop<span> ✦</span></h1>
+    <p class="tagline">Natural skincare. Refillable by design.</p>
+    <a class="pill-button" href="#products">Shop bestsellers <b>→</b></a>
+    <div class="promises">
+      <div><i>♧</i><p><b>Natural formulas</b><small>Thoughtful ingredients</small></p></div>
+      <div><i>↻</i><p><b>Refillable packaging</b><small>Reuse, refill, reduce waste</small></p></div>
+      <div><i>♡</i><p><b>Dermatologically tested</b><small>Gentle on all skin types</small></p></div>
+    </div>
+  </div>
+  <div class="hero-image hero-art" aria-label="Decorative CSS illustration of a BeautyLoop skincare jar">
+    <div class="hero-glow"></div><div class="hero-branch">✿</div>
+    <div class="hero-product"><span class="hero-cream"></span><b>BeautyLoop</b><small>Cloud Cream</small><em>Hydrating Face Cream · 50 ml</em></div>
+  </div>
+</section>
+
+<section class="products section" id="products">
+  <div class="section-title"><h2><span>—</span> Bestsellers</h2><a href="#products">View all products　→</a></div>
+  <div class="product-grid">
+    <article class="product">
+      <div class="product-image product-art serum-art" role="img" aria-label="Illustration of Daily Glow Serum bottle"><span class="art-tag">DAILY GLOW</span><div class="serum-bottle"><i></i><b>BeautyLoop</b><small>Daily Glow<br>Serum</small></div><span class="art-orb"></span></div>
+      <div class="product-content"><h3>Daily Glow Serum</h3><p class="sub">Brightening serum · 30 ml</p><p class="rating">★★★★★ <small>4.8 (312 reviews)</small></p><div class="price-row"><b>£24.00</b><button class="add">Add to bag</button></div><p class="desc">A lightweight serum that boosts radiance, evens skin tone and hydrates deeply.</p><div class="ingredient"><b>Niacinamide (5%)</b><small>Helps brighten and even skin tone</small></div><div class="ingredient"><b>Hyaluronic Acid</b><small>Deep hydration</small></div><div class="ingredient"><b>Vitamin C</b><small>Antioxidant protection</small></div></div>
+    </article>
+    <article class="product">
+      <div class="product-image product-art cream-art" role="img" aria-label="Illustration of Cloud Cream jar"><span class="art-tag">SOFT & CALM</span><div class="cream-pot"><i></i><b>BeautyLoop</b><small>Cloud Cream</small></div></div>
+      <div class="product-content"><h3>Cloud Cream</h3><p class="sub">Hydrating face cream · 50 ml</p><p class="rating">★★★★★ <small>4.7 (289 reviews)</small></p><div class="price-row"><b>£28.00</b><button class="add">Add to bag</button></div><p class="desc">A rich yet lightweight cream that hydrates, soothes and strengthens the skin barrier.</p><div class="ingredient"><b>Ceramides</b><small>Reinforce the skin barrier</small></div><div class="ingredient"><b>Squalane</b><small>Locks in moisture</small></div><div class="ingredient"><b>Centella Asiatica</b><small>Soothes and reduces redness</small></div></div>
+    </article>
+    <article class="product">
+      <div class="product-image product-art cleanser-art" role="img" aria-label="Illustration of Gentle Cleanser bottle"><span class="art-tag">FRESH START</span><div class="cleanser-bottle"><i></i><b>BeautyLoop</b><small>Gentle<br>Cleanser</small></div><span class="art-orb"></span></div>
+      <div class="product-content"><h3>Gentle Cleanser</h3><p class="sub">Daily cleanser · 150 ml</p><p class="rating">★★★★★ <small>4.6 (198 reviews)</small></p><div class="price-row"><b>£18.00</b><button class="add">Add to bag</button></div><p class="desc">A mild, sulphate-free cleanser that removes impurities without drying the skin.</p><div class="ingredient"><b>Aloe Vera</b><small>Soothes and hydrates</small></div><div class="ingredient"><b>Betaine</b><small>Gently cleanses</small></div><div class="ingredient"><b>Chamomile Extract</b><small>Calms and balances</small></div></div>
+    </article>
+    <article class="product">
+      <div class="product-image product-art balm-art" role="img" aria-label="Illustration of Overnight Balm jar"><span class="art-tag">NIGHT RITUAL</span><div class="cream-pot balm-pot"><i></i><b>BeautyLoop</b><small>Overnight Balm</small></div><span class="lavender-art">✿</span></div>
+      <div class="product-content"><h3>Overnight Balm</h3><p class="sub">Nourishing balm · 50 ml</p><p class="rating">★★★★★ <small>4.8 (267 reviews)</small></p><div class="price-row"><b>£26.00</b><button class="add">Add to bag</button></div><p class="desc">A restorative overnight balm that deeply nourishes and leaves skin soft and plump.</p><div class="ingredient"><b>Shea Butter</b><small>Intense nourishment</small></div><div class="ingredient"><b>Lavender Extract</b><small>Promotes relaxation</small></div><div class="ingredient"><b>Peptides</b><small>Support skin regeneration</small></div></div>
+    </article>
+  </div>
+  <p class="note">Product details and customer ratings are illustrative student-project content.</p>
+</section>
+
+<section class="refill" id="refill">
+  <div class="refill-copy"><p class="eyebrow">A little love for the planet</p><h2>Refill. Return.<br>Reuse. Repeat.</h2><p>Good skincare should feel good in every way. Keep your favourite containers and refill them when you need more. Return your empty refill pouches to earn rewards.</p><a class="outline-button" href="#rewards">Discover the loop　→</a></div>
+  <div class="refill-photo refill-art" role="img" aria-label="CSS illustration of a refill pouch and reusable skincare jar"><div class="refill-pouch"><b>BeautyLoop</b><small>Cloud Cream<br>Refill pouch</small></div><div class="refill-jar"><b>BeautyLoop</b><small>Cloud Cream</small></div><span class="refill-spark">✦</span></div>
+  <div class="steps">
+    <div><b>01</b><p><strong>Get your set</strong><small>Choose your reusable bottle or jar.</small></p></div>
+    <div><b>02</b><p><strong>Enjoy your routine</strong><small>Make a little time for yourself every day.</small></p></div>
+    <div><b>03</b><p><strong>Refill & Return <span>♔</span></strong><small>Return your empty refill pouches and receive rewards.</small></p></div>
+  </div>
+  <div class="rewards" id="rewards"><span class="gift">♔</span><strong>Refill & Return Rewards</strong><span class="reward-text">Return your empty refill pouches and get <b>10% off your next refill.</b></span><a href="#contact">→ Learn more</a></div>
+</section>
+
+<section class="plans section" id="plans">
+  <div class="plans-heading"><div><h2><span>—</span> Choose your<br>skincare plan</h2><p>Better skin. Less waste. More savings.</p></div><div class="benefits"><span>♧<small>Sustainable<br>beauty</small></span><span>↻<small>Flexible<br>refills</small></span><span>♡<small>Save<br>money</small></span></div></div>
+  <div class="plan-grid">
+    <article class="plan"><h3>The Essential</h3><p class="plan-price">£18<small> / month</small></p><p>A simple start to your daily skincare ritual.</p><ul><li>One refill every month</li><li>10% off additional products</li><li>Cancel anytime</li></ul><button class="choose">Choose plan</button></article>
+    <article class="plan featured"><span class="popular">Most popular</span><h3>The Glow Club</h3><p class="plan-price">£32<small> / month</small></p><p>Your favourites, delivered with a little extra love.</p><ul><li>Two refills every month</li><li>15% off additional products</li><li>Free delivery</li></ul><button class="choose">Choose plan</button></article>
+    <article class="plan"><h3>The Full Ritual</h3><p class="plan-price">£45<small> / month</small></p><p>The complete routine for your glow.</p><ul><li>Three refills every month</li><li>20% off additional products</li><li>Free delivery and samples</li></ul><button class="choose">Choose plan</button></article>
+  </div>
+</section>
+
+<section class="account-contact" id="account">
+  <div class="account-card">
+    <p class="eyebrow">Your BeautyLoop</p>
+    <h2>My Account</h2>
+    <p class="account-intro" id="accountStatus">Choose a skincare plan to start your loop.</p>
+    <button class="outline-button" id="resetPlan" type="button">Reset plan</button>
+    <p class="account-feedback" id="accountFeedback" aria-live="polite"></p>
+  </div>
+  <div class="contact-card" id="contact">
+    <p class="eyebrow">We'd love to hear from you</p>
+    <h2>Get in Touch</h2>
+    <form id="contactForm">
+      <div class="form-row">
+        <label>Your name<input name="name" type="text" placeholder="Name" required></label>
+        <label>Email address<input name="email" type="email" placeholder="Email" required></label>
+      </div>
+      <label>Message<textarea name="message" rows="4" placeholder="How can we help?" required></textarea></label>
+      <div class="form-bottom"><button class="send-button" type="submit">Send message　→</button><small>This demo form does not send messages.</small></div>
+      <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="reviews-heading"><div class="flower">✿</div><div><h2>Customer<br>reviews</h2><p class="stars">★★★★★</p><small>Little moments of self-care, loved by you.</small></div></div>
+  <blockquote>“My skin feels so soft and the refill system is so easy to use.”<cite>— Sophie</cite></blockquote>
+  <blockquote>“Beautiful products, thoughtful packaging and a lovely routine.”<cite>— Amelia</cite></blockquote>
+  <blockquote>“I love being able to refill my favourites instead of replacing them.”<cite>— Olivia</cite></blockquote>
+</section>
+</main>
+<footer><a class="logo" href="#home">∞ BeautyLoop</a><p>Natural skincare. Refillable by design.</p><small>© 2026 BeautyLoop · Student website concept</small></footer>
+<div class="toast" id="toast" aria-live="polite"></div>
+<script src="script.js"></script>
+</body></html>
